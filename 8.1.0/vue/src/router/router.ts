@@ -66,7 +66,8 @@ export const appRouters: Array<Router> = [{
     icon: '&#xe68a;',
     component: main,
     children: [
-        { path: 'TheMovie',meta:{title:'TheMovie'}, name :'TheMovie', component:()=> import('../views/themovie/movie.vue')}
+        { path: 'TheMovie',meta:{title:'TheMovie'}, name :'TheMovie', component:()=> import('../views/themovie/movie.vue')},
+        { path: 'TypeFilm',meta:{title:'Quản lý thể loại'}, name :'TypeFilm', component:()=> import('../views/movie/typefilm/typefilm.vue')}
     ],
 }]
 export const routers = [

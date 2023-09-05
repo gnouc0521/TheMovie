@@ -8,6 +8,7 @@ import user from './modules/user'
 import role from './modules/role'
 import tenant from './modules/tenant'
 import movie from './modules/movie'
+import typefilm from './modules/typefilm'
 const store = new Vuex.Store({
     state: {
         //
@@ -25,8 +26,8 @@ const store = new Vuex.Store({
         user,
         role,
         tenant,
-        movie
-
+        movie,
+        typefilm,
     }
 });
 
